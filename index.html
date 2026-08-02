@@ -1,11 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
 <title>AI Video Generator</title>
+<style>
+body{
+margin:0;
+font-family:Arial;
+background:#0f172a;
+color:white;
+text-align:center;
+}
+.container{
+padding:40px 20px;
+}
+h1{
+font-size:34px;
+}
+textarea{
+width:90%;
+max-width:500px;
+height:120px;
+border-radius:10px;
+padding:10px;
+font-size:16px;
+}
+button{
+margin-top:20px;
+padding:15px 30px;
+font-size:18px;
+background:#2563eb;
+color:white;
+border:none;
+border-radius:10px;
+}
+</style>
 </head>
-<body style="font-family:Arial;text-align:center;background:#111;color:white;padding:50px;">
+<body>
+<div class="container">
 <h1>🎥 AI Video Generator</h1>
-<p>Welcome to my AI Video Generator Website.</p>
-<button style="padding:15px 30px;font-size:18px;">Generate Video</button>
+<p>Describe your video below</p>
+<textarea placeholder="Write your prompt..."></textarea><br>
+<button>Generate Video</button>
+</div>
 </body>
 </html>
